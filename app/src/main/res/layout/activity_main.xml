@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fapp.bush.skb_json.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:background="#0ACA5C" />
+
+    <TextView
+        android:id="@+id/name_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="72dp"
+        android:paddingTop="24dp"
+        android:text="СКБ Контур"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="72dp"
+        android:paddingTop="51dp"
+        android:text="Все отчеты сданы, задолженностей нет"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="17dp"
+        android:src="@drawable/icon" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="181dp"
+        android:paddingTop="150dp" />
+</RelativeLayout>
